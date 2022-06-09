@@ -8,6 +8,8 @@ package flyweight;
  *
  * @author carled7
  */
-public class SpriteFlyweight {
+public abstract class SpriteFlyweight {
+    
+    public abstract void desenharImagem(Ponto ponto);
     
 }
